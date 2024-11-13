@@ -32,11 +32,3 @@ The portfolio aims to deliver a professional and interactive platform that highl
 
 1. **Add Project Section**: Showcase key projects with details and links.
 2. **Add Services Section**: Detail the services offered, with descriptions and examples.
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
