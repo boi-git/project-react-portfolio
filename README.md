@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio Project
 
-## Getting Started
+This project is a portfolio website developed using **React** and **Tailwind CSS**, with the design created in **Figma**. The goal is to showcase skills, experience, and projects in a visually appealing and responsive layout.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The portfolio aims to deliver a professional and interactive platform that highlights my work and skills. The design process began in Figma, starting from wireframes to ensure a consistent structure across desktop, tablet, and mobile views, followed by high-fidelity designs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Objectives
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Design**: Create a comprehensive portfolio layout in Figma, starting with wireframes and then refining designs for desktop, tablet, and mobile breakpoints.
+2. **Development**: Build the portfolio using React and Tailwind CSS for efficient and scalable styling.
+3. **Responsive Design**: Ensure the website is fully responsive and matches the Figma design specifications.
+4. **Code Optimization**: Apply the **DRY** (Don't Repeat Yourself) principle to maintain clean, reusable code.
+5. **Data Management**: Use JSON files as placeholders for backend data, simulating dynamic content.
+6. **Dashboard**: Develop an interactive dashboard to display key information and metrics.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- **React**: For building the UI components.
+- **Tailwind CSS**: For styling and responsiveness.
+- **Figma**: For designing wireframes and high-fidelity prototypes.
+- **JSON**: To simulate backend data and display dynamic content.
 
-To learn more about Next.js, take a look at the following resources:
+## Current Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Responsive Layout**: The website adjusts seamlessly across desktop, tablet, and mobile devices.
+- **Reusable Components**: Following the DRY approach to maintain clean, modular code.
+- **Interactive Dashboard**: Displaying project metrics and other relevant information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Todo List
 
-## Deploy on Vercel
+1. **Add Project Section**: Showcase key projects with details and links.
+2. **Add Services Section**: Detail the services offered, with descriptions and examples.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```

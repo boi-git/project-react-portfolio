@@ -501,7 +501,7 @@ export default function Home() {
             . with <span className="text-red-500">❤️</span> using React and
             Tailwind CSS. The source code is available on{" "}
             <a
-              href="https://github.com/bue221"
+              href="https://github.com/boi-git/project-react-portfolio"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
