@@ -498,8 +498,8 @@ export default function Home() {
             >
               Aizat
             </a>
-            . with <span className="text-red-500">❤️</span> using React and
-            Tailwind CSS. The source code is available on{" "}
+            . with <span className="text-red-500">🏀</span> using React and
+            Tailwind. The source code is available on{" "}
             <a
               href="https://github.com/boi-git/project-react-portfolio"
               target="_blank"
