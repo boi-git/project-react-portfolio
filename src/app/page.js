@@ -207,7 +207,7 @@ export default function Home() {
             </div>
 
             <div className="col-span-6 h-[150px] bg-white rounded-[10px] shadow-xl border border-[#c9c9c9] block lg:hidden ">
-              <div className="text-[#3a3a3a] text-base font-normal font-['Poppins'] leading-tight justify-center flex h-full items-center">
+              <div className="text-[#3a3a3a] font-normal font-['Poppins'] leading-tight justify-center flex h-full items-center p-8">
                 “Deserving is not a thing in competition. <br />
                 You earn it or you don't.”
               </div>
@@ -280,7 +280,7 @@ export default function Home() {
               </div>
             </div>
             <div className="h-[150px] w-full px-16 py-8 bg-white rounded-[10px] shadow-xl border border-[#c9c9c9] justify-between items-center inline-flex hidden lg:block">
-              <div className="text-[#3a3a3a] text-base font-normal font-['Poppins'] leading-tight justify-center flex h-full items-center">
+              <div className="text-[#3a3a3a] text-[13px] text-base font-normal font-['Poppins'] leading-tight justify-center flex h-full items-center">
                 “Deserving is not a thing in competition. <br />
                 You earn it or you don't.”
               </div>
@@ -290,19 +290,19 @@ export default function Home() {
         <div className="col-span-12 sm:col-span-12 lg:col-span-6 bg-white rounded-[10px] shadow-xl border border-[#c9c9c9] flex-col justify-start items-start gap-8 inline-flex p-8">
           <div className="self-stretch h-10 flex-col justify-end items-start flex">
             <div className="text-[#3a3a3a] text-[13px] font-normal font-['Poppins'] leading-none">
-              1 Year Of{" "}
+              1 Year Of
             </div>
             <div className="text-[#3a3a3a] text-xl font-normal font-['Poppins'] leading-normal">
               Experience
             </div>
           </div>
           <div className="self-stretch grow shrink basis-0 flex-col justify-start items-start gap-8 flex">
-            <div className="self-stretch justify-between items-center inline-flex">
+            <div className="flex flex-col md:flex-row items-start md:items-center self-stretch justify-between  inline-flex">
               <div className="text-[#3a3a3a] text-[31px] font-normal font-['Poppins'] leading-[37.20px]">
-                UI/UX Designer{" "}
+                UI/UX Designer
               </div>
-              <div className="flex-col justify-end items-end inline-flex">
-                <div className="text-[#3a3a3a] text-xl font-normal font-['Poppins'] leading-normal">
+              <div className="flex-col justify-end  inline-flex items-start md:items-end">
+                <div className="text-[#3a3a3a] text-xl font-normal font-['Poppins'] leading-normal ">
                   Keeklr
                 </div>
                 <div className="text-[#3a3a3a] text-[13px] font-normal font-['Poppins'] leading-none">
@@ -310,11 +310,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="self-stretch justify-between items-center inline-flex">
+            <div className="flex flex-col md:flex-row items-start md:items-center self-stretch justify-between  inline-flex">
               <div className="text-[#3a3a3a] text-[31px] font-normal font-['Poppins'] leading-[37.20px]">
                 Sport Advisor
               </div>
-              <div className="flex-col justify-end items-end inline-flex">
+              <div className="flex-col justify-end  inline-flex items-start md:items-end">
                 <div className="text-[#3a3a3a] text-xl font-normal font-['Poppins'] leading-normal">
                   Decathlon
                 </div>
@@ -323,11 +323,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="self-stretch justify-between items-center inline-flex">
+            <div className="flex flex-col md:flex-row items-start md:items-center self-stretch justify-between  inline-flex">
               <div className="text-[#3a3a3a] text-[31px] font-normal font-['Poppins'] leading-[37.20px]">
                 UI/UX Designer & Developer
               </div>
-              <div className="flex-col justify-end items-end inline-flex">
+              <div className="flex-col justify-end  inline-flex items-start md:items-end">
                 <div className="text-[#3a3a3a] text-xl font-normal font-['Poppins'] leading-normal">
                   IMT Tech
                 </div>
@@ -489,9 +489,9 @@ export default function Home() {
 
       {/* Footer */}
       <div className="w-full pt-8 px-[16px] sm:px-[32px] lg:px-[200px] flex flex-col items-center justify-center gap-4 md:h-24 md:flex-row">
-        <div className="self-stretch w-full px-16 py-8 bg-white rounded-[10px] shadow-xl border border-[#c9c9c9] justify-center items-center inline-flex">
+        <div className="self-stretch w-full px-16 py-8 bg-white rounded-[10px] shadow-xl border border-[#c9c9c9] justify-center items-center inline-flex min-h-min">
           {" "}
-          <p className="text-center text-[#3a3a3a] text-xl font-normal font-['Poppins'] leading-loose text-muted-foreground md:text-left">
+          <p className="text-center text-[#3a3a3a] text-xl font-normal font-['Poppins'] leading-loose text-muted-foreground md:text-left  ">
             Built by{" "}
             <a
               href="https://github.com/boi-git"
