@@ -35,12 +35,12 @@ export default function Home() {
       {/*First Row*/}
       <div className="w-full px-[16px] sm:px-[32px] lg:px-[200px] grid grid-cols-12 gap-8">
         <div className="h-auto col-span-12 sm:col-span-12 lg:col-span-4 p-8 bg-white rounded-[10px] shadow-xl border border-[#c9c9c9] flex-col justify-start items-start gap-8 inline-flex">
-          <div className="self-stretch justify-start items-center gap-8 inline-flex">
+          <div className="flex flex-col md:flex-row self-stretch justify-start items-center gap-8">
             <img
-              className="w-[125px] h-[125px] rounded-full object-full"
+              className="w-[125px] h-[125px] rounded-full object-cover md:w-[125px] md:h-[125px]"
               src="/img/Aizat_Photo.jpg"
             />
-            <div className="grow shrink basis-0 text-[#3a3a3a] text-[31px] font-normal font-['Poppins'] leading-[37.20px]">
+            <div className="grow shrink basis-0 text-[#3a3a3a] text-[31px] font-normal font-['Poppins'] leading-tight">
               Muhammad Adhwa' Aizat Bin Harun
             </div>
           </div>
@@ -170,10 +170,11 @@ export default function Home() {
                 href="https://www.linkedin.com/in/adhwa-aizat-056585264/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="h-full"
               >
                 <img
                   src="/img/link_logo.png"
-                  className="h-full w-auto object-contain p-8"
+                  className="h-full w-auto object-contain"
                 />
               </a>
             </div>
@@ -183,10 +184,11 @@ export default function Home() {
                 href="https://www.behance.net/adhwaaizat1"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="h-full"
               >
                 <img
                   src="/img/behance.svg"
-                  className="h-full w-auto object-contain p-8"
+                  className="h-full w-auto object-contain"
                 />
               </a>
             </div>
@@ -195,10 +197,11 @@ export default function Home() {
                 href="https://github.com/boi-git"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="h-full"
               >
                 <img
                   src="/img/github-142-svgrepo-com.svg"
-                  className="h-full w-auto object-contain p-8"
+                  className="h-full w-auto object-contain"
                 />
               </a>
             </div>
