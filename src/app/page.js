@@ -47,7 +47,7 @@ export default function Home() {
           <div className="self-stretch grow shrink basis-0 justify-between items-center inline-flex">
             <div className="grow shrink basis-0 text-[#3a3a3a] text-base font-normal font-['Poppins'] leading-tight">
               I'm skilled in translating Figma designs into functional code with
-              React and Vue, ensuring that my designs are optimized for
+              React,Vue and Flutter, ensuring that my designs are optimized for
               performance and usability. This background allows me to build
               interfaces that meet user needs and align with business goals.
             </div>
@@ -306,7 +306,7 @@ export default function Home() {
                   Keeklr
                 </div>
                 <div className="text-[#3a3a3a] text-[13px] font-normal font-['Poppins'] leading-none">
-                  July 2024 - Present
+                  July 2024 - Oct 2024
                 </div>
               </div>
             </div>
